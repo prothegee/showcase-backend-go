@@ -11,7 +11,7 @@ __*table of contents:*__
 
 <br>
 
-[quic preview](https://youtu.be/TvGujQngAJ0)
+[quick preview](https://youtu.be/TvGujQngAJ0)
 
 [![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
 
