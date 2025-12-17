@@ -2,8 +2,8 @@
 
 __*table of contents:*__
 
-- [intro](README#intro)
-- [important](README#important)
+- [intro](#intro)
+- [important](#important)
 
 <br>
 
@@ -11,7 +11,8 @@ __*table of contents:*__
 
 <br>
 
-<!-- [quic preview](https://youtu.be/TvGujQngAJ0) -->
+[quic preview](https://youtu.be/TvGujQngAJ0)
+
 [![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
 
 ## intro
