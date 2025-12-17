@@ -1,0 +1,47 @@
+{
+	"version": "0.1.0",
+	"listener": {
+		"backend_api": {
+			"address": "0.0.0.0",
+			"port": 9090
+		}
+	},
+	"database": {
+		"postgresql": {
+			"main": {
+				"host": "0.0.0.0",
+				"port": 5432,
+				"user": "postgres",
+				"password": "",
+				"database": "showcase_backend_go",
+				"sslmode": "disable"
+			}
+		},
+		"redis": {
+			"main": {
+				"host": "0.0.0.0",
+				"port": 6379,
+				"user": "",
+				"password": "",
+				"db": 0
+			}
+		}
+	},
+	"security": {
+		"whitelist_origin": [
+			"http://localhost:9090",
+			"curl"
+		],
+		"whitelist_host": [
+			"localhost:9090",
+			"curl"
+		],
+		"block_cipher": {
+			"default": {
+				"iv": "abcdefghijklmnop",
+				"ik": "abcdefghijklmnopqrstuvwxyz012345"
+			}
+		}
+	}
+}
+
