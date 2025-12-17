@@ -5,14 +5,14 @@ __*table of contents:*__
 - [intro](README#intro)
 - [important](README#important)
 
-[quic preview](https://youtu.be/TvGujQngAJ0)
-[![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
-
 <br>
 
 - [database](./docs/database/README.md)
 
 <br>
+
+<!-- [quic preview](https://youtu.be/TvGujQngAJ0) -->
+[![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
 
 ## intro
 
