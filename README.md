@@ -56,11 +56,5 @@ __*to run the test:*__
 
 ---
 
-## seperation concern
-
-<br>
-
----
-
 ###### end of readme
 
