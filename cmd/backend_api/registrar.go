@@ -12,6 +12,7 @@ import (
 	backend_api_account "showcase-backend-go/cmd/backend_api/api/account"
 	backend_api_auth "showcase-backend-go/cmd/backend_api/api/auth"
 	backend_api_game1 "showcase-backend-go/cmd/backend_api/api/game1"
+	backend_ws_stock "showcase-backend-go/cmd/backend_api/ws/stock"
 
 	"showcase-backend-go/pkg"
 	"showcase-backend-go/pkg/configs"
@@ -142,5 +143,13 @@ func RegistrarHandlers(mux *http.ServeMux) {
 		pkg_middleware.CheckHttpOrigin,
 		pkg_middleware.CheckHeaderAuthorization)
 	mux.HandleFunc(backend_api_game1.BackendApiGame1StashHint, handlerBackendApiGame1Stash)
+
+	// --------------------------------------------------------- //
+
+	// /ws/stock/trade
+	handleBackendWsStockTrade := handlerMiddlewares(
+		backend_ws_stock.BackendWsStockTrade,
+		pkg_middleware.CheckHttpHost)
+	mux.HandleFunc(backend_ws_stock.BackendWsStockTradeHint, handleBackendWsStockTrade)
 }
 

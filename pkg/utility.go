@@ -11,6 +11,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/google/uuid"
 )
@@ -219,5 +220,12 @@ func GenRandomNumber(min, max int) (int, error) {
     rangeSize := uint64(max - min + 1)
     result := min + int(r%rangeSize)
     return result, nil
+}
+
+// @brief timestamp now
+//
+// @return string
+func TimestampNow() string {
+	return time.Now().UTC().Format("2006-01-02 15:04:05.000000000")
 }
 
