@@ -15,7 +15,8 @@ __*table of contents:*__
 
 [![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
 
-[![go kafka websocket](./docs/img/go-kafka-websocket.png)]
+go kafka websocket
+![go kafka websocket](./docs/img/go-kafka-websocket.png)
 
 <br>
 
