@@ -60,6 +60,18 @@ __*to run the test:*__
 2. open a terminal, then you can run the service by run [`./drun.sh`](./drun.sh)
 3. open another terminal session then run [`./dtest.sh`](./dtest.sh)
 
+<br>
+
+__*to check kafka result from websocket:*__
+
+1. run your kafka instance
+2. check [producer_ctl](./cmd/producer_ctl/main.go) and adjust your host ipaddrs:port
+3. run the producer_ctl on seperate terminal session
+4. run the backend_api on seperate terminal session
+5. use websocket and open `/ws/stock/trade`, i.e.:
+    - `wscat -c http://hostname:portnumber/ws/stock/trade`
+6. consumer has no interaction, it always consume the data as long as it connect to the server
+
 ---
 
 ###### end of readme
