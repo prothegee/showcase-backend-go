@@ -1,27 +1,5 @@
 # showcase backend go
 
-__*table of contents:*__
-
-- [intro](#intro)
-- [important](#important)
-
-<br>
-
-- [database](./docs/database/README.md)
-
-<br>
-
-[quick preview](https://youtu.be/TvGujQngAJ0)
-
-[![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
-
-go kafka websocket
-![go kafka websocket](./docs/img/go-kafka-websocket.png)
-
-<br>
-
-## intro
-
 a showcase backend using go, postgresql, & redis
 
 __*prequiste:*__
@@ -68,9 +46,24 @@ __*to check kafka result from websocket:*__
 2. check [producer_ctl](./cmd/producer_ctl/main.go) and adjust your host ipaddrs:port
 3. run the producer_ctl on seperate terminal session
 4. run the backend_api on seperate terminal session
-5. use websocket and open `/ws/stock/trade`, i.e.:
+5. use [websocket wscat](https://github.com/websockets/wscat) and open `/ws/stock/trade`, i.e.:
     - `wscat -c http://hostname:portnumber/ws/stock/trade`
 6. consumer has no interaction, it always consume the data as long as it connect to the server
+
+---
+
+<br>
+
+## preview
+
+[quick preview](https://youtu.be/TvGujQngAJ0)
+
+[![](https://img.youtube.com/vi/TvGujQngAJ0/hqdefault.jpg)](https://www.youtube.com/watch?v=TvGujQngAJ0)
+
+go kafka websocket
+![go kafka websocket](./docs/img/go-kafka-websocket.png)
+
+<br>
 
 ---
 
