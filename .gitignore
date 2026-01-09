@@ -29,6 +29,7 @@ node_modules
 *.bak*
 *.zip
 
+*bak*
 *Zone.Identifier
 
 ##
